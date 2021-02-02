@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Contact pagina</title>
+
+    </head>
+    <body>
+
+        <h1>Contact Form</h1>
+
+        <form action="mijngegevens.php" method="POST">
+
+            <p>Voornaam: <input type="text" name="voornaam"></p>
+            <p>Achternaam: <input type="text" name="achternaam"></p>
+            <p>Klas: <input type="text" name="klas"></p>
+            <p>Leeftijd: <input type="text" name="leeftijd"></p>
+            <p>Woonplaats: <input type="text" name="woonplaats"></p>
+
+            <p>man of vrouw?</p>
+
+            <input type="radio" name="geslacht" value="man">
+            <label for="man">Man</label><br>
+
+            <input type="radio" name="geslacht" value="vrouw">
+            <label for="vrouw">Vrouw</label><br>
+
+            <input type="radio" name="geslacht" value="onbekend">
+            <label for="onbekend">Anders</label><br>
+            
+            <br>
+
+            <input type="submit" name="submit" value="verstuur">
+
+        </form>
+
+    </body>
+
+</html>
